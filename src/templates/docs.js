@@ -126,14 +126,12 @@ export default class MDXRuntimeTest extends Component {
         ? canonicalUrl + config.gatsby.pathPrefix
         : canonicalUrl
     canonicalUrl = canonicalUrl + mdx.fields.slug
-
+    
+    const disqusShortname = 'reeempathways'
     const disqusConfig = {
-      shortname: 'reeempathways',
-      config: {
-        identifier: mdx.fields.slug,
-        title: mdx.frontmatter.metaTitle,
-        url: config.gatsby.siteUrl,
-      },
+      url: canonicalUrl,
+      identifier: mdx.fields.id,
+      title: mdx.frontmatter.metaTitle,
     }
 
     return (
@@ -160,7 +158,10 @@ export default class MDXRuntimeTest extends Component {
           <h1 className={'title'}>{metaTitle}</h1>
           <Share url={canonicalUrl} shareText={metaDescription} />
           <Edit className={'mobileView'}>
-            <Link className={'gitBtn'} to={`${docsLocation}/${mdx.parent.relativePath}`}>
+            <Link
+              className={'gitBtn'}
+              to={`${docsLocation}/${mdx.parent.relativePath}`}
+            >
               <img src={gitHub} alt={'Github logo'} /> Edit on GitHub
             </Link>
           </Edit>
@@ -172,7 +173,7 @@ export default class MDXRuntimeTest extends Component {
           <NextPrevious mdx={mdx} nav={nav} />
         </div>
         <div>
-          {mdx.fields.slug!=='/' && <DiscussionEmbed {...disqusConfig} />}
+          {mdx.fields.slug !== '/' && <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />}
         </div>
       </Layout>
     )
