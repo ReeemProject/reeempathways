@@ -20,7 +20,7 @@ const config = {
     title: 'REEEMpathways',
     description: 'Gain a clear and comprehensive understanding of the system-wide implications of energy strategies in support of transitions to a competitive low-carbon EU energy society',
     ogImage: null,
-    docsLocation: 'https://github.com/tokni/pathways12/tree/master/content',
+    docsLocation: 'https://github.com/ReeemProject/reeempathways/tree/master/content',
     favicon: '',
   },
 }
