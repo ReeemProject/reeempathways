@@ -4,7 +4,7 @@ metaTitle: "About the tool"
 metaDescription: "An article-based open access online tool to visualise the results/key messages derived from the integrated impact assessment modelling framework and enable stakeholder feedback and interaction"
 ---
 
-Stakeholder engagement in the project builds largely on enabling tools and WP7 has the function of disseminating the insights gained from the project, and to get feedback from stakeholders to improve the models and other material being developed in the project.
+Stakeholder engagement in the project builds largely on enabling tools and WP7 of the REEEM project has the function of disseminating the insights gained from the project, and to get feedback from stakeholders to improve the models and other material being developed in the project.
 
 To reach this objective an article-based open access online tool, REEEMpathways, has been developed to visualise the results/key messages derived from the integrated impact assessment modelling framework and enable stakeholder feedback and interaction.
 
