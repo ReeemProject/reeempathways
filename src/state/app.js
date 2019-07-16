@@ -1,5 +1,5 @@
 const initialState = {
-  pathways: ['coalitions', 'localsolutions', 'parisagreement', 'model', 'reference', 'parisagreementeu'],
+  pathways: ['coalitions', 'localsolutions', 'parisagreement'],
 }
 
 const TOGGLE_PATHWAY = 'TOGGLE_PATHWAY'
