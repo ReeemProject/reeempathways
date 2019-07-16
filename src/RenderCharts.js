@@ -1,36 +1,21 @@
-import RenderBarChart from './charts/RenderBarChart'
-import RenderPieChart from './charts/RenderPieChart'
-import { connect } from 'react-redux'
-import { ChartWrapper, ChartTitle } from 'RenderCharts.style'
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Flex } from 'RenderCharts.style'
+import RenderChart from './RenderChart'
 
-const RenderCharts = ({ config, pathways }) => {
-  let result
-  switch (config.chartType) {
-    case 'BarChart':
-      result = (
-        <RenderBarChart
-          data={config.data}
-          bars={config.bars.filter(bar => pathways.indexOf(bar.dataKey) > -1)}
-          yAxisLabel={config.yAxisLabel}
-        />
-      )
-      break
-    case 'PieChart':
-      result = <RenderPieChart data={config.data} />
-      break
-    default:
-  }
+const RenderCharts = ({ config }) => {
+  const chartConfigs = Object.values(config)
   return (
-    <ChartWrapper>
-      <ChartTitle>{config.title}</ChartTitle>
-      {result}
-    </ChartWrapper>
+    <Flex>
+      {chartConfigs.map((chartConfig, i) => (
+        <RenderChart key={i} config={chartConfig} />
+      ))}
+    </Flex>
   )
 }
 
-export default connect(
-  state => ({
-    pathways: state.app.pathways,
-  }),
-  null
-)(RenderCharts)
+RenderCharts.propTypes = {
+  config: PropTypes.object.isRequired,
+}
+
+export default RenderCharts
