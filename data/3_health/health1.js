@@ -8,8 +8,8 @@ const config = {
   bars: [
     { dataKey: 'reference', fill: 'orange' },
     { dataKey: 'coalitions', fill: 'red' },
-    { dataKey: 'localsolutions', fill: 'green' },
-    { dataKey: 'parisagreement', fill: 'blue' },
+    { dataKey: 'localsolutions', fill: 'blue' },
+    { dataKey: 'parisagreement', fill: 'green' },
   ],
 }
 
