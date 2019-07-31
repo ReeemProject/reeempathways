@@ -1,11 +1,11 @@
 import data from './projected_biomass_production'
 
 const config = {
-  chartType: 'BarChart',
+  chartType: 'LineChart',
   title: 'Projected biomass production',
   yAxisLabel: 'PJ',
   data: data,
-  bars: [
+  lines: [
     { dataKey: 'coalitions', fill: 'red' },
     { dataKey: 'localsolutions', fill: 'blue' },
     { dataKey: 'parisagreement', fill: 'green' },
