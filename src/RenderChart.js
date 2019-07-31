@@ -1,4 +1,5 @@
 import RenderBarChart from './charts/RenderBarChart'
+import RenderStackedBarChart from './charts/RenderStackedBarChart'
 import RenderPieChart from './charts/RenderPieChart'
 import { connect } from 'react-redux'
 import { ChartWrapper, ChartTitle } from 'RenderChart.style'
@@ -11,6 +12,15 @@ const RenderChart = ({ config, pathways }) => {
         <RenderBarChart
           data={config.data}
           bars={config.bars.filter(bar => pathways.indexOf(bar.dataKey) > -1)}
+          yAxisLabel={config.yAxisLabel}
+        />
+      )
+      break
+    case 'StackedBarChart':
+      result = (
+        <RenderStackedBarChart
+          data={config.data}
+          bars={config.bars.filter(bar => pathways.indexOf(bar.stackId) > -1)}
           yAxisLabel={config.yAxisLabel}
         />
       )
