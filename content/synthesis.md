@@ -1,6 +1,6 @@
 ---
 title: 'Synthesis'
-metaTitle: 'Economic impacts'
+metaTitle: 'Synthesis'
 metaDescription: 'The main tool to analyse the economic impacts of the transition to a low-carbon energy system was NEWAGE (National European World Applied General Equilibrium)'
 ---
 
