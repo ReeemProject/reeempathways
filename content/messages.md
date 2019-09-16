@@ -9,29 +9,41 @@ This section gives a brief description of the modelling activities and other typ
 **Energy System and Technology**
 
 •	Energy system optimisation (EU);
+
 •	Technology innovation in the pathways;
+
 •	Case study on grid and dispatch in South Eastern Europe;
+
 •	Regional energy security case study of the Baltic region and Finland;
+
 •	Coevolution and competition of technologies in a low-carbon system: a UK case study.
 
 **Economy and Society**
 
 •	Economic impacts (EU);
+
 •	Health and Environmental impacts (EU);
+
 •	Energy vulnerability and low-carbon transitions (EU);
+
 •	Behavioural analysis (EU – described in Section 2).
 
 **Environment and resources**
 
 •	Life Cycle Assessment (LCA) (EU);
+
 •	Critical materials (EU);
+
 •	Water-Climate-Energy-Land use nexus (EU);
+
 •	Ecosystem services case study;
+
 •	Case study on district heating.
 
 On top of that, two other types of analysis have been considered. It has to be noted these activities are pathway independent:
 
 *	Technology innovation analysis
+
 *	Behavioural analysis
 
 Although the sub-national case studies are not part of the integrated framework to analyse impacts on Pan-European level, they have been considered in the data harmonisation process. Between all the aforementioned activities, there is some exchange of data with other activities. The data exchange can fall under the following 4 categories:
