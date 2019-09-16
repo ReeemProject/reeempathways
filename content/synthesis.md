@@ -30,6 +30,7 @@ These products draw from what is called the REEEM “Integrated Framework”. Th
 
 Figure 43 below depicts how the aforementioned products are linked. The data used and produced in the REEEM Integrated Framework is fed into the database. OSeMBE also takes data from and harmonises assumptions with the Integrated Framework. The data produced for and by OSeMBE (as well as the other models) is then also fed into the database. OSeMBE data is used in the development of the REEEMgame. Data and insights from all the models are used in the REEEMpathways tool. All the aforementioned tools and insights are then discussed, and data disseminated, at the EMP-E and particular ideas discussed there may then lead to their improvement.
 
+![Synthesis & outreach framework of the REEEM project](./synthesis_figure43.png)
 Figure 43. Synthesis & outreach framework of the REEEM project.
 
 ## Synthesis of messages
@@ -103,6 +104,7 @@ Thus, the project database needs to meet different requirements. Besides complyi
 
 The above complexities also led to challenges in the data classification and categorisation. These were solved by developing and implementing a **flexible tagging system** for model inputs and outputs. This allows for data in the database to be tagged with different tags, assigned by modellers and users according to their understanding of the meaning of the data. The data tagging adds a flexible top layer of data categorisation according to general definitions. It aims at making input and output data from different models and modelling teams more comparable. For instance, all cost variables or technical parameters can be accessed across the database. Besides the technical aspects, the legal aspects were considered as well. The project aims at publishing the data sets under open licenses. All openly licensed input and output data of the models and pathways (of the [REEEMPathways tool](https://pathways.reeem.org/) in the REEEM database are publicly available also on the [OpenEnergyPlatform](https://openenergy-platform.org/) (OEP) and can then be identified under the tag “REEEM”. The links between the REEEM Database and other REEEM activities as well as with the OEP are shown below in Figure 44. The database concept and the data structures are presented in great detail in the Technical Documentation of the REEEM Pathway Database (deliverable [D6.5](http://www.reeem.org/wp-content/uploads/2019/05/REEEM-D6.5.pdf)).
 
+![REEEM data management and dissemination](./synthesis_figure44.png)
 Figure 44. REEEM data management and dissemination.
 
 ## OSeMBE: Open Source energy Model Base for the EU
@@ -132,7 +134,8 @@ In the current version, the user is assigned a specific "point-of-view" expresse
 •	Social: Cheaper access to energy for everyone in 2050 is better
 
 •	Environmental: Lower annual CO2 emissions in 2050 are better
- 
+
+![Interface of the REEEMgame](./synthesis_figure45.png)
 Figure 45. Interface of the REEEMgame.
 
 The game aims to let the player interactively discover how policy decisions, investments in infrastructure and technology developments might affect the development of the European electricity sector in the transition to a low-carbon system. At three points in time (2020, 2030, 2040) levers may be changed by the player concerning the emission reduction pathway, the expected capital costs of Renewable Energy Technologies, and the upgrade of the trans-border electricity transmission between European countries, according to the 10-Year development plan by ENTSO-E.
@@ -153,7 +156,8 @@ The tool is populated by data stored in the REEEM Pathways Database and provides
 The user interface is designed with an emphasis on organising and showing model data on charts. A number of developed features enhance usability and accessibility. Among these, the possibility of downloading the data underlying the charts.
 
 The tool enables REEEM partners to publish and update their own articles providing multiple types of static and dynamic charts to choose from to visualise their own key messages and the data behind it.
- 
+
+![REEEMpathways interface](./synthesis_figure46.png)
 Figure 46. REEEMpathways interface.
 
 Following the concept of the REEEM project, this allows policy makers and stakeholders to explore and compare possible decarbonisation pathways. This may assist in understanding the effects of and requirements for energy system changes.
