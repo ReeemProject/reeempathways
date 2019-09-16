@@ -21,12 +21,19 @@ This setting allows the emergence of a number of key insights, described in Sect
 Comparing the three REEEM pathways investigated, two main conclusions can be drawn. Firstly, as expected, deeper decarbonisation in a globally enforced Paris Agreement pathway (where Europe is not a leader) leads to lower GDP growth (with a limited classical analysis). But at the same time brings higher health and environmental benefits. The “Local Solutions” pathway is slightly less cost-effective than the CL pathway - which may bring some relief given the urgency of the transition, knowing that government action may be easier to implement than self-organised citizenry. Yet, there are a number of other unexpected trends and related insights. For example, in the Local Solutions pathway, there is higher consumption of critical materials but also higher production of biomass). Secondly, some key trends seem to appear consistently in the transition to a low-carbon system, regardless of the pathway. For example, there is growth in renewable energy technology-related industry, drops in fossil-fuel related activities and increasing demand for critical materials.  One way of interpreting this fact (i.e. consistent trends in all pathways) is to realise that _if the macro-scale of the transition is expected to be almost equal regardless of the particular course chosen, it is important to focus on the micro-scale impacts and set priorities accordingly_.
 
 Key insights from the project analysis include:
+
 1.	The impacts of the transition to a low carbon EU energy system are multi-dimensional and spatially varied;
+
 2.	Broader engagement is imperative for deep decarbonisation;
+
 3.	The EU low-carbon transition is strongly linked to non-EU drivers;
+
 4.	There are non-trivial multidimensional path dependencies that cannot be ignored;
+
 5.	Among the technology trends, energy efficiency and electrification of transportation are consistently confirmed as potential enablers of the decarbonisation;
+
 6.	Focusing on direct mitigation misses important leakage effects;
+
 7.	New energy security paradigms.
 
 The list of indicators synthesising the impact assessment is derived from an integrated comprehensive modelling framework. In fact this is the most extensive exercise of its kind to date in the EC. The indicators create an opportunity for deriving consolidated, non-silo conclusions and holistic policy-making which span across SDGs and inform the Clean Planet for all strategy. The list of indicators shown in the current report can be found in Appendix B. Interpreting indicators can be a subjective exercise, and for this reason, it is critical that different viewpoints are considered. In the course of REEEM, several workshops have been carried out which have helped discuss the analysis results and draw useful insights. The workshops featured participation either from local stakeholders (those related to the case studies) or international (i.e. EU level, those linked to the PanEU activities).
@@ -36,8 +43,11 @@ Further to the above, the REEEM project has contributed to a culture of openness
 Improvements may be made in different aspects of the framework; particular ones have been identified and described below:
 
 •	The 5 case studies considered in REEEM shed light on critical issues which cannot be captured in an EU-level analysis. In future studies, it would be prudent to carry out similar studies in different part of the EU in order to get more bottom-up understanding of the system-wide impacts of the transition.
+
 •	In terms of input data and assumptions, delving deeper into national policies could make the results more country relevant. At the moment, not all the latest country-level dynamics are captured.
+
 •	Parts of the input data of some of the models are not yet fully complying with open data standards, because they became integral part of the models before standard open data management practices emerged or because they are copyrighted. These shall be replaced in the future with the increasingly available large and spatially resolved sets of open data. The process started within REEEM, where, for instance, sets of data included in the TIMES PanEU model were updated with open data included in the OSeMBE model.
+
 •	Further integration between the models (i.e. soft-linking) could be pursued, leading to even more robust results. More specifically, there is potential for establishing iterative linking between different models until they reach convergence (similar to that between TIMES PanEU and NEWAGE).
 
 Furthermore, there is a certain level of uncertainty governing the integrated framework, as the models are used and maintained separately by different institutions. To some degree, this has been be minimised during the REEEM project by documenting data exchange processes, establishing data processing infrastructures (shared also on platforms which will live beyond the project, within the open modelling community), laying the ground for further bilateral modelling efforts, ensuring a space for discussions and scientific publications within the Energy Modelling Platform for Europe.

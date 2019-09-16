@@ -7,16 +7,23 @@ metaDescription: 'The main tool to analyse the economic impacts of the transitio
 The Messages and Case Studies sections revealed a number of messages emerging from the various types of analysis carried out in REEEM. Although those messages can be relevant for both the scientific community and policy-makers, further actions must be taken in order to integrate and communicate. The objectives of the synthesis and outreach process are:
 
 •	Elicit integrated (i.e. cross-sectoral) messages that can help define the direction of policy making from a broader perspective.
+
 •	Communicate all messages (and the supporting material such as data and background information) in a way that promotes transparency, reproducibility, wide engagement and educational aspects.
+
 •	Be easily absorbed by future projects and processes, so that work undertaken here need not be repeated.
 
 To fulfil the above objectives, the outcome of REEEM is shaped into the following products:
 
 •	**Synthesis of messages:** An attempt to draw broader messages, emerging from the co-analysis of the messages presented in Section 3 for the EU as a whole and for the case studies. This action helps fulfil the first objective of the synthesis and outreach process.
+
 •	**REEEM Database:** An open source database to store all the modelling outputs relevant to the integrated impact assessment and the underlying input data (as far as openly available). This product, as well as all the following ones, aim at fulfilling the second and the third objective of the process.
+
 •	**OSeMBE:** The Open Source energy Model Base for the EU is an open-source, low-threshold model of the energy system of the EU28 + Norway and Switzerland built in the open source modelling framework OSeMOSYS [34]. It is used as stakeholder engagement model.
-•	**REEEMgame:** A business game aimed at interactively taking experts and non-experts through key dynamics of transitions to a low-carbon energy system. 
-•	**REEEMpathways:** An online free and open platform showcasing the three REEEM pathways and the related messages defined in Section 3 and 4.1 with databased information - available in a digestible format.     
+
+•	**REEEMgame:** A business game aimed at interactively taking experts and non-experts through key dynamics of transitions to a low-carbon energy system.
+
+•	**REEEMpathways:** An online free and open platform showcasing the three REEEM pathways and the related messages defined in Section 3 and 4.1 with databased information - available in a digestible format.
+
 •	**Energy Modelling Platform for Europe (EMP-E):** It is a platform consisting of a website, special issues of a leading journal and annual meeting was created by REEEM with inputs by DG R&I, DG Ener and DG JRC. Its aim is to provide a digest of energy models and insights for researchers and policy makers. It culminates in an annual event where energy modellers and policy-makers exchange ideas trough plenary discussions, workshops and poster sessions.
 
 These products draw from what is called the REEEM “Integrated Framework”. That (described earlier) is a method derived to maximise the coherency and integration of a set of different tools and approaches calibrated to various levels by common pathway assumptions.
@@ -58,7 +65,9 @@ The development rates of technologies used in the EU energy system are, to some 
 Deep decarbonisation will lead us into path dependencies that will require active multidimensional intervention. Those dimensions can go across timing, sectors and within a sector:
 
 •	As mentioned in the previous messages, deep decarbonisation is expected to have significant impacts on the economy and society. But the impacts of these are often not necessarily in the hands of EU decision makers. Further, they will depend on the timing of the intervention. For example, the study on macroeconomic impacts in particular, illustrates how the fulfilment of the Paris Agreement could reduce GDP growth more compared to other pathways. Even though in those other pathways the ambition for curbing emissions is lower. That is because in the scenario examined the rest of the world acts to invest locally to reduce its emissions. In so doing it reduces its investment in Europe. In fact, it competes with Europe. That is because the scenario in question is accompanied by a roughly 10% higher consumption of critical materials (compared to the Coalition for a Low-carbon path pathway) as well as biomass and water. Thus, the timing of the intervention is important.
+
 •	At the same time, when the Paris Agreement target is achieved, there is an incremental increase in the relevant benefits such as lower health impacts. Interventions impact other sectors. Comparing the marginal cost to the marginal benefits of the transition to a significantly low-carbon pattern is not a straightforward process as it depends heavily on the perspective of each actor engaging in the decision-making. It is therefore critical, as mentioned in previous messages, to assess the pros and cons diligently. That is not only with regards to how the transition should materialise (i.e. which countries/regions/sectors to be affected the most) but also up to which level of decarbonisation the benefits are considered greater than the cost in other sectors.
+
 •	Lastly, there are important energy sector quirks. Importantly, the higher the need for electrification of sectors of the economy, the greater the need for low carbon baseload generation, or variable renewable energy technologies with flexibility. CCS, biomass and/or nuclear could represent the most affordable low-carbon options to reduce the need for flexibility, but they too come with risk. 100% decarbonisation of sectors will be very hard without negative emission technologies such as biomass coupled with CCS (BECCS) and the adoption of a net balance   approach. For different reasons, the use of the above technologies (Biomass, CCS and Nuclear) has been debated in the EU as they have environmental, social and economic impacts that go beyond GHG emissions. Flexible generation options, include grid-connected storage, smart end-use technologies and increase of interconnections between Member States. They also come with risk. The appropriate mix between these options does not depend only upon cost and investment considerations, but also highly on security concerns, long-term purchase agreements and, not least, affordability of electricity prices. A larger base of comprehensive studies on the cross-sectoral and cross-scale implications of different mix of flexible and low-carbon generation options is needed to inform investments and policy decisions (such as those on capacity markets or support towards specific technological solutions). It is worth noting also that deeper changes to material and infrastructure systems, such as biomass building material, increased telecommuting etc. may hold much higher and lower cost mitigation potential than options that would ordinarily be included in a an energy policy makers remit.
 
 **Integrated message 5: Among the technology trends, energy efficiency and electrification of transportation are consistently confirmed as potential enablers of the decarbonisation**
@@ -78,10 +87,13 @@ Initial analysis indicates that meeting a target of 90% direct GHG mitigation mi
 Moving beyond the direct analysis of the REEEM integrated framework, various observations call for an urgent new look at security, beyond the traditional metrics of import vulnerability. According to the pathways we examine there are potential pictures of concern:
 
 •	There are the traditional risks associated with fossil fuels that will transform in value from supplying energy to flexibility services. Arguably these may result in a higher value (and thus vulnerability to a unit used).
+
 •	Supply security of new carriers, materials and technology will need to be undertaken. For example, biofuel imports may increase; RET technologies will be produced elsewhere and materials needed to produce or refurbish them will not be under the control of the EC.
+
 •	 With an increase in extreme weather events key new energy sources are at risk.
 o	On the supply side: By far the greatest concern lies with biofuels, where forest fires during heat waves can have   enormous effect. While recent windstorm in Holland destroyed wind-turbines and hailstorms elsewhere damaged solar farms. 
 o	On the demand side: increase cooling demands required to keep power stations, industry and homes both cool and warm are stressing the system in ways unexpected. Yet we expect a rapid increase in the frequency and severity of hot and cold spells as well as rainy and dry spells. Each of which amplify demands on energy
+
 •	Finally, with increased flexibility to accommodate variable renewable energy technologies (rather than non-variable renewable energy technologies and nuclear) comes the need for increased ICT control and automation. That automation requires increased deployment of communication and processing power. With its increase comes the risk of cyber-attacks and security. Whether this is from a heavy, external attack, such as an electromagnetic pulse, or internal hacking, new vulnerabilities arise that must be carefully managed.
 
 
@@ -102,7 +114,9 @@ The Open Source energy MOdelling SYStem (OSeMOSYS) was used to build the Open So
 OSeMBE is purposefully and in accordance with the Grant Agreement of REEEM designed as a **stakeholder engagement model**. As such, it aims to illustrate to expert and non-expert stakeholders key dynamics of the transition to a low-carbon EU energy system featured in TIMES PanEU, however leaving out its detail and complexity. Its structure includes the 28 EU Member States, Norway and Switzerland as connected regions. Each region has a set of technologies and fuels available and can exchange electricity with its neighbours. The energy resources considered are: liquid biofuels, solid biomass, coal, geothermal energy, heavy fuel oil, natural gas, oil, oil shale, solar energy, uranium, waste, waves, and wind. The model distinguishes between domestic resources and imported resources. The resources can be converted to electricity by using combined cycle power plants (PPs), CHP PPs, fuel cells, gas cycle PPs, integrated gasification combined cycle PPs, internal combustion engines, nuclear reactors of generation II and III, solar photovoltaic, steam cycle PPs, and wind turbines. The model covers the years 2015 to 2050. Per year it has five seasons and one typical day per season represented by three time slices. To allow the analysis of the environmental impact of the power system, CO2 and particle matter 2.5 are considered. The latter was chosen after being identified as the most harmful emission by the EcoSense model. The key output metrics of OSeMBE in REEEM relate to economic, environmental and social impacts of the transition to a low-carbon EU electricity system. They are: 
 
 •	Economic: Discounted investment per citizen, this indicator is available for entire Europe and per country, which allows to compare the investment needs among countries.
-•	Environmental: CO2 per citizen. The carbon intensity per citizen allow the comparison in between countries but also the comparison over time. Of interest is not only what the countries might reach in 2050 but also the different starting situations in 2015
+
+•	Environmental: CO2 per citizen. The carbon intensity per citizen allow the comparison in between countries but also the comparison over time. Of interest is not only what the countries might reach in 2050 but also the different starting situations in 2015.
+
 •	Social: Levelised Cost of Electricity (LCOE) – do not indicate the final price. However, the LCOE gives a good indication on the cost for electricity generation which have an impact on the final price.
  
 By focusing on the most relevant dynamics in the evolution of the energy system, OSeMBE aims to provide a starting point for policy makers, academia and the public to familiarise with energy systems investment modelling. It constitutes an open source research infrastructure which can serve as a showcase, but also as a starting point for further research. It has been and will be used at in Higher Education Institutions as a ground for 1) teaching kits on energy systems investment modelling, 2) research within Master and PhD theses, 3) flexible and light model base for large numbers of explorative scenario runs (spanning several ranges of uncertainties on future energy prices), 4) open source base for model comparisons at the Energy Modelling Platform for Europe and other European events and 5) model infrastructure to carry out regional or national analyses. For the latter case, scripts are under development within new funded actions to extract regional of national models out of OSeMBE, modify/improve them within the scope of group teaching activities and individual research and re-introduce them into the European model. In short, OSeMBE is not only an engagement model, but also a space for collaborative open research. As such, it fulfils the purpose to communicate the features of the modelling effort carried out in REEEM and facilitate the creation of impact.
@@ -116,7 +130,9 @@ The REEEMgame aims to support learning sessions with stakeholders to provide the
 In the current version, the user is assigned a specific "point-of-view" expressed as a set of economic, environmental and social preferences. The player mission is simple: make climate policy choices in 2020, 2030, and 2040 to maximise the weighted 2050-score for the assigned preferences. The decisions impact the score components as follows:
 
 •	Economic: Higher Gross Domestic Product (GDP) in 2050 is better
+
 •	Social: Cheaper access to energy for everyone in 2050 is better
+
 •	Environmental: Lower annual CO2 emissions in 2050 are better
 
 ![Interface of the REEEMgame](./synthesis_figure45.png)
