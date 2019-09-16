@@ -86,7 +86,8 @@ In addition to the common elements of energy-economy-environment analyses pointe
 
 The following diagram depicts the exchange of data between all the aforementioned activities, while the exact data exchanges are described in the subsequent sub-sections.
 
-Figure 1.[REEEM modelling framework](./reeem-modelling-framework.png)
+![REEEM modelling framework](./reeem-modelling-framework.png)
+Figure 1. REEEM modelling framework
 
 The modelling presented in this report cuts across scales and across sectors: it analyses medium- and long-term investment needs in Member States to comply with more and less ambitious decarbonisation targets under several scenarios of higher or lower cooperation; it estimates the costs and benefits of the transition across sectors and at a European, regional and local scale; it zooms into regional and local aspects of the transition, e.g. in terms of electricity dispatch, energy supply security, impact on ecosystems and use of resources, without losing connection with the European picture. In brief, the modelling scope is tailored to investigating those challenges outlined in the Clean Strategy for all not yet comprehensively analysed in previous efforts.
 

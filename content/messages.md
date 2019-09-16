@@ -43,4 +43,5 @@ Although the sub-national case studies are not part of the integrated framework 
 
 The following diagram depicts the exchange of data between all the aforementioned activities, while the exact data exchanges are described in the subsequent sub-sections.
 
-Figure 1[REEEM modelling framework](./reeem-modelling-framework.png)
+![REEEM modelling framework](./reeem-modelling-framework.png)
+Figure 1. REEEM modelling framework
