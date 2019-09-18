@@ -22,7 +22,6 @@ export const PathwaysOption = styled.div`
   height: 36px;
   padding: 0px 10px 0px 15px;
   margin: 0px 10px 10px 0px;
-  position: relative;
   width: 100%;
   border-radius: 0;
   background-color: ${props =>
@@ -38,6 +37,30 @@ export const PathwaysOption = styled.div`
       font-weight: ${props =>
         props.selected ? 'bold' : props.selected2 ? 'bold' : 'normal'};
     }
+  }
+`
+
+export const Tooltip = styled.div`
+  visibility: hidden;
+  height: 300px;
+  width: 250px;
+  opacity: 0.7;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  border-radius: 6px;
+  right: 200px;
+  margin-top: -40px;
+  position: absolute;
+  z-index: 1;
+`
+
+export const OptionWrapper = styled.div`
+  width: 100%;
+  display: inline;
+  &:hover ${Tooltip} {
+    visibility: visible;
   }
 `
 
