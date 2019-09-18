@@ -14,11 +14,7 @@ const Sidebar = styled('aside')`
   border-right: 1px solid #ede7f3;
   height: 100vh;
   overflow: auto;
-  position: fixed;
   padding-left: 24px;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: sticky;
   top: 0;
   @media only screen and (max-width: 50rem) {
     width: 100%;

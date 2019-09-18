@@ -9,7 +9,8 @@ import RightSidebar from './rightSidebar'
 const Wrapper = styled('div')`
   display: flex;
   justify-content: space-between;
-
+  position: relative;
+  
   @media only screen and (max-width: 767px) {
     display: block;
   }
