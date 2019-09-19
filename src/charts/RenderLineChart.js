@@ -22,6 +22,7 @@ const RenderLineChart = ({ data, lines, yAxisLabel = '' }) => {
           value: yAxisLabel,
           angle: -90,
           position: 'insideLeft',
+          dx: -8
         }}
       />
       <Tooltip position={{x: width, y:0}} wrapperStyle={{zIndex: 10}}/>
