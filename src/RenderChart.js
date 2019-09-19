@@ -69,7 +69,7 @@ const RenderChart = ({ config, pathways }) => {
     <ChartWrapper>
       <ChartTitle>{config.title}</ChartTitle>
       {result}
-      <DownloadButton onClick={e => exportToJson(config.data)}>Download</DownloadButton>
+      <DownloadButton onClick={e => exportToJson(config.data)}>Download Data</DownloadButton>
     </ChartWrapper>
   )
 }
