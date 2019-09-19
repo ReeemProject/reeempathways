@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import { BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts'
 
 const RenderBarChart = ({ data, bars, yAxisLabel = '' }) => {
+  const width = 380
   return (
     <BarChart
-      width={380}
+      width={width}
       height={300}
       data={data}
       margin={{
@@ -24,7 +25,7 @@ const RenderBarChart = ({ data, bars, yAxisLabel = '' }) => {
           position: 'insideLeft',
         }}
       />
-      <Tooltip />
+      <Tooltip position={{x: width, y:0}} wrapperStyle={{zIndex: 10}}/>
       {bars.map(bar => (
         <Bar
           key={bar.dataKey}
