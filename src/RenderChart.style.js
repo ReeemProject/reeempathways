@@ -14,3 +14,9 @@ export const ChartTitle = styled.div`
   font-size: 18px;
   padding-bottom: 10px;
 `
+export const DownloadButton = styled.button`
+  align-self: center;
+  font-size: 18px;
+  padding-bottom: 10px;
+  border:none;
+`

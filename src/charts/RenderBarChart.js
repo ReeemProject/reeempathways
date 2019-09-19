@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts'
 
 const RenderBarChart = ({ data, bars, yAxisLabel = '' }) => {
+
   return (
     <BarChart
       width={380}
