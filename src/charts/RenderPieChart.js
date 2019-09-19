@@ -11,7 +11,7 @@ const RenderPieChart = ({ data }) => {
     if (active) {
       let e = payload[0]
       if (e.name === 'Other') {
-        var renderedOutput = [data.filter(d=> others.indexOf(d.name)>-1).map(item => <p> {item.name + ': ' + (item.value).toFixed(2)} </p>)]
+        var renderedOutput = data.filter(d=> others.indexOf(d.name)>-1).map(item => <p key={item.name}> {item.name + ': ' + (item.value).toFixed(2)} </p>)
 
         return (
           <>
@@ -32,16 +32,12 @@ const RenderPieChart = ({ data }) => {
      const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
     const x = cx + radius * Math.cos(-midAngle * RADIAN);
     const y = cy + radius * Math.sin(-midAngle * RADIAN);
-    console.log(percent)
     return (
       <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
         {(percent * 100).toFixed(0) > 0 ? `${(percent * 100).toFixed(0)}%`: ``}
       </text>
     );
   };
-  console.log(JSON.stringify(data))
-  console.log(data.length)
- let  d = data.filter(d => d.value > 100)
  let newData = []
  let otherValue = 0
   data.forEach(e => {
@@ -52,9 +48,9 @@ const RenderPieChart = ({ data }) => {
     }
   });
   newData.push({'name': 'Other', 'value': otherValue})
-  console.log(d.length)
+  const width = 380
   return (
-    <PieChart width={380} height={300}>
+    <PieChart width={width} height={300}>
       <Pie
         data={newData}
         dataKey="value"
@@ -71,7 +67,7 @@ const RenderPieChart = ({ data }) => {
           <Cell key={i} fill={COLORS[i % COLORS.length]} />
         ))}
       </Pie>
-      <Tooltip content={CustomTooltip} />
+      <Tooltip content={CustomTooltip} position={{x: width, y:0}} wrapperStyle={{zIndex: 10}}/>
     <Legend />
     </PieChart>
   )
