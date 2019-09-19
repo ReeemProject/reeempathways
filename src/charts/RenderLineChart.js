@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import { LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts'
 
 const RenderLineChart = ({ data, lines, yAxisLabel = '' }) => {
+  const width = 380
   return (
     <LineChart
-      width={380}
+      width={width}
       height={300}
       data={data}
       margin={{
@@ -23,7 +24,7 @@ const RenderLineChart = ({ data, lines, yAxisLabel = '' }) => {
           position: 'insideLeft',
         }}
       />
-      <Tooltip />
+      <Tooltip position={{x: width, y:0}} wrapperStyle={{zIndex: 10}}/>
       {lines.map(line => (
         <Line key={line.dataKey} type='monotone' dataKey={line.dataKey} stroke={line.fill} />
       ))}
