@@ -207,7 +207,6 @@ const SidebarLayout = ({ location }) => (
               return false
             })}
           </ul>
-          <p style={{fontSize: '14px', color: 'red', padding: '20px'}}>DISCLAIMER: THIS IS WORK IN PROGRESS. THESE ARE NOT THE FINAL RESULTS OF THE PROJECT.</p>
           <img className={'euFlag'} src={euflag} alt={'EU flag'} width={'120px'} style={{padding: '60px 20px 0px 20px'}}/>
           <p style={{fontSize: '12px', color: '#777777', padding: '20px'}}>
             This project has received funding from the European Union’s Horizon
