@@ -17,5 +17,5 @@ Under ambitious climate policy, the value of bioenergy increases. Whilst this us
 
 Such insights, which are applicable to other Member States not just the UK, can help shape future strategy direction. However, they also give rise to further questions given the inherent uncertainty and the issues that fall outside of the model boundary e.g. broader sustainability concerns of bioenergy, legal and social acceptability of negative emissions. What is key is that firm insights can start to shape action now while issues of greater uncertainty are considered further and subjected to further research.
 
-![Median generation levels across power sector technologies between 2020 & 2050](./coevolution.png)
+![Median generation levels across power sector technologies between 2020 & 2050](./5_coevolution.png)
 Figure 14. Median generation levels across power sector technologies between 2020 & 2050

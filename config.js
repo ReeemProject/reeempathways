@@ -10,17 +10,27 @@ const config = {
     githubUrl: '',
     helpUrl: '',
     tweetText: '',
-    links: [{ 'text': '', 'link': '' }],
+    links: [{ text: '', link: '' }],
   },
   sidebar: {
-    forcedNavOrder: ['/background', '/pathways', '/messages', '/case_studies', '/synthesis', '/about'],
-    links: [{ 'text': '', 'link': '' }],
+    forcedNavOrder: [
+      '/background',
+      '/pathways',
+      '/energy-tech',
+      '/economy-society',
+      '/environment-resources',
+      '/synthesis',
+      '/about',
+    ],
+    links: [{ text: '', link: '' }],
   },
   siteMetadata: {
     title: 'REEEMpathways',
-    description: 'Gain a clear and comprehensive understanding of the system-wide implications of energy strategies in support of transitions to a competitive low-carbon EU energy society',
+    description:
+      'Gain a clear and comprehensive understanding of the system-wide implications of energy strategies in support of transitions to a competitive low-carbon EU energy society',
     ogImage: null,
-    docsLocation: 'https://github.com/ReeemProject/reeempathways/tree/master/content',
+    docsLocation:
+      'https://github.com/ReeemProject/reeempathways/tree/master/content',
     favicon: '',
   },
 }
