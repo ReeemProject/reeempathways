@@ -12,5 +12,5 @@ The case study focused on verifying the feasibility of dispatch for the least-co
 
 It was confirmed that hourly balancing of variable renewable energy sources is possible with projected generation capacities in Southeast Europe obtained in TIMES PanEU for 2030. Figure 13 illustrates a close match between PLEXOS and TIMES for electricity generation in 2030 for the Coalitions for a Low-carbon path pathway. A similar analysis could be useful for other Member States and for different years, especially when high variability in the demand for and, more importantly, the supply of electricity is recorded. This could shed light on the selection of technologies and additional measure such as increased storage or higher base-load capacity could be considered. Demand side management measures might be also particularly useful as they could help the demand curve get closer to the supply curve.
 
-![Electricity generation in 2030 for the Coalitions for a low carbon path pathway](./gridDispatch.png)
+![Electricity generation in 2030 for the Coalitions for a low carbon path pathway](./4_gridDispatch.png)
 Figure 13. Electricity generation in 2030 for the Coalitions for a low carbon path pathway
